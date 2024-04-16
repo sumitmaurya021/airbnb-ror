@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+ .mySwiper {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
