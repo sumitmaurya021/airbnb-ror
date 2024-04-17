@@ -4,6 +4,7 @@ ruby "3.3.0"
 gem "devise"
 gem 'faker'
 gem 'money-rails'
+gem 'tailwindcss-rails'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
@@ -62,6 +63,3 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-
-
-gem "tailwindcss-rails", "~> 2.4"
