@@ -49,6 +49,7 @@ export default class extends Controller {
       this.element.dataset.status = "true";
       this.iconTarget.classList.remove("fill-none");
       this.iconTarget.classList.add("fill-primary");
+      this.textTarget.innerText = 'Saved';
       
       if (this.textTarget) {
         this.textTarget.innerText = 'Saved';
@@ -68,6 +69,7 @@ export default class extends Controller {
       this.element.dataset.status = "false";
       this.iconTarget.classList.remove("fill-primary");
       this.iconTarget.classList.add("fill-none");
+      this.textTarget.innerText = 'Save';
 
       if (this.textTarget) {
         this.textTarget.innerText = 'Save';

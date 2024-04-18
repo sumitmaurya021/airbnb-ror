@@ -7,3 +7,5 @@ module.exports = {
       require('autoprefixer'),
     ]
   }
+import "trix"
+import "@rails/actiontext"
