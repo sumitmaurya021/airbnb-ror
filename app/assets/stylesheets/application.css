@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+
+ .mySwiper {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.stroke-white {
+  stroke: #ffffff; /* Change to your desired stroke color */
+}
+
+.stroke-black {
+  stroke: #000000; /* Change to your desired stroke color */
+}
+
+.stroke-primary{
+  stroke: #ff0000; /* Change to your desired primary stroke color */
+}
